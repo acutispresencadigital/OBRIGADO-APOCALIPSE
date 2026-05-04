@@ -4,13 +4,6 @@ import { motion } from 'motion/react';
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col items-center selection:bg-brand-red selection:text-white">
-      {/* 1. Header */}
-      <header className="w-full py-6 px-4 md:px-8 flex justify-center md:justify-start border-b border-white/10">
-        <h1 className="font-display text-2xl md:text-3xl font-bold text-brand-red uppercase tracking-wider">
-          Acutis - Estratégia e presença digital
-        </h1>
-      </header>
-
       {/* Main Container */}
       <main className="flex-grow w-full max-w-3xl px-6 py-12 md:py-20 flex flex-col items-center text-center animate-fade-in">
         
