@@ -15,7 +15,7 @@ export default function App() {
         >
           <CheckCircle2 size={80} className="text-green-500 mb-6 drop-shadow-[0_0_15px_rgba(34,197,94,0.3)]" />
         </motion.div>
-        <h2 className="font-display text-4xl md:text-6xl font-bold text-white mb-6 leading-tight uppercase tracking-tight">
+        <h2 className="font-display text-4xl md:text-6xl font-bold text-brand-red mb-6 leading-tight uppercase tracking-tight">
           OBRIGADO PELA <span className="text-brand-red">SUA COMPRA!</span>
         </h2>
         <p className="text-lg md:text-xl text-gray-300 md:px-10 leading-relaxed max-w-2xl">
