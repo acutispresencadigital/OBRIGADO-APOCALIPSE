@@ -18,7 +18,7 @@ export default function App() {
         <h2 className="font-display text-4xl md:text-6xl font-bold text-brand-red mb-6 leading-tight uppercase tracking-tight">
           OBRIGADO PELA <span className="text-brand-red">SUA COMPRA!</span>
         </h2>
-        <p className="text-lg md:text-xl text-gray-300 md:px-10 leading-relaxed max-w-2xl">
+        <p className="text-lg md:text-xl text-gray-600 md:px-10 leading-relaxed max-w-2xl">
           Sua jornada rumo à compreensão profunda das profecias começou. 
           Agradecemos pela confiança. Os 3 ebooks estão a caminho e preparamos 
           tudo para que você tenha uma ótima e edificante leitura.
@@ -29,44 +29,44 @@ export default function App() {
             Próximos Passos:
           </h3>
           
-          <div className="flex items-start gap-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="mt-1 p-2 bg-brand-red/10 rounded-lg">
+          <div className="flex items-center gap-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <div className="p-2 bg-brand-red/10 rounded-lg shrink-0">
               <Mail className="text-brand-red" size={20} />
             </div>
             <div>
-              <p className="text-white font-medium">Seu acesso será entregue no seu e-mail em instantes.</p>
+              <p className="text-gray-900 font-medium">Seu acesso será entregue no seu e-mail em instantes.</p>
               <p className="text-sm text-gray-500">Acabamos de enviar o link de download.</p>
             </div>
           </div>
-          <div className="flex items-start gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <div className="mt-1 p-2 bg-brand-red/10 rounded-lg">
+          <div className="flex items-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <div className="p-2 bg-brand-red/10 rounded-lg shrink-0">
               <ShieldAlert className="text-brand-red" size={20} />
             </div>
             <div>
-              <p className="text-white font-medium">Não encontrou? Verifique a caixa de spam.</p>
+              <p className="text-gray-900 font-medium">Não encontrou? Verifique a caixa de spam.</p>
               <p className="text-sm text-gray-500">Às vezes os e-mails se escondem no lixo eletrônico.</p>
             </div>
           </div>
-          <div className="flex items-start gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <div className="mt-1 p-2 bg-brand-red/10 rounded-lg">
+          <div className="flex items-center gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+            <div className="p-2 bg-brand-red/10 rounded-lg shrink-0">
               <BookOpen className="text-brand-red" size={20} />
             </div>
             <div>
-              <p className="text-white font-medium">Prepare seu coração para o entendimento.</p>
+              <p className="text-gray-900 font-medium">Prepare seu coração para o entendimento.</p>
               <p className="text-sm text-gray-500">Recomendamos ler na ordem sugerida no guia.</p>
             </div>
           </div>
         </div>
         {/* 4. Frase Final */}
-        <div className="mt-20 py-8 border-t border-white/5 w-full">
-          <p className="italic text-gray-400 text-lg font-serif">
+        <div className="mt-20 py-8 border-t border-gray-200 w-full">
+          <p className="italic text-gray-500 text-lg font-serif">
             "Bem-aventurado aquele que lê, e os que ouvem as palavras desta profecia..."
           </p>
           <p className="text-xs text-brand-red/60 mt-2 uppercase tracking-widest">— Apocalipse 1:3</p>
         </div>
       </main>
       {/* 5. Footer */}
-      <footer className="w-full py-8 px-6 text-center border-t border-white/5 text-gray-600 text-sm">
+      <footer className="w-full py-8 px-6 text-center border-t border-gray-200 text-gray-500 text-sm">
         <p>© 2025 Acutis - Estratégia e presença digital. Todos os direitos reservados.</p>
       </footer>
     </div>
